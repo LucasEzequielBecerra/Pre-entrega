@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #feefdd;
+}
+
+.img-container-index{
+    border: solid 1px #201e1f   ;
+    background-color:#faaa8d;
+    padding-top: 15px;
+
+}
+
+.footer-container{
+background-color: #201e1f;
+color: beige;
+}
+
+
+/* .logo-navbar{
+    width: 30%;
+} */
