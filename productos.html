@@ -26,9 +26,7 @@
     </div>
     <header class="sticky-top">
 
-
-
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top mb-5">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html"><img width="70px" src="fotos/logo.png.png" alt="" width="100%"
                         class="img-fluid logo-navbar"></a>
@@ -56,151 +54,126 @@
         </nav>
     </header>
 
-<main>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6">
-                <nav>
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item">
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="breadcrumb-item">
-                            <a href="#">Library</a>
-                        </li>
-                        <li class="breadcrumb-item active">
-                            Data
-                        </li>
-                    </ol>
-                </nav>
-            </div>
-            <div class="col-md-6">
-                <div class="dropdown">
-                     
-                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
-                        Action
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                         <a class="dropdown-item disabled" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6">
+                    <nav>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="index.html">Inicio</a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a href="#">Productos</a>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-xl-6">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Ordenar</option>
+                        <option value="1">Menor precio</option>
+                        <option value="2">Mayor relevancia</option>
+                        <option value="3">Mas antiguo</option>
+                        <option value="3">Mayor precio</option>
+                        <option value="3">Mas nuevo</option>
+                    </select>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-2">
-                <div class="card">
-                    <h5 class="card-header">
-                        Card title
-                    </h5>
-                    <div class="card-body">
-                        <p class="card-text">
-                            Card content
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        Card footer
-                    </div>
+            <div class="row mt-5">
+                <div class="col  d-sm-block  d-lg-none">                   
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Filtrar</option>
+                        <option value="1">Agendas y calendarios</option>
+                        <option value="2">Artes</option>
+                        <option value="3">Biologia y ciencia</option>
+                        <option value="3">Cocina y comidas</option>
+                        <option value="3">Comics y manga</option>
+                        <option value="3">Deportes</option>
+                    </select>   
                 </div>
-            </div>
-            <div class="col-md-10">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <h5 class="card-header">
-                                Card title
-                            </h5>
-                            <div class="card-body">
-                                <p class="card-text">
-                                    Card content
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                Card footer
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <h5 class="card-header">
-                                Card title
-                            </h5>
-                            <div class="card-body">
-                                <p class="card-text">
-                                    Card content
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                Card footer
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <h5 class="card-header">
-                                Card title
-                            </h5>
-                            <div class="card-body">
-                                <p class="card-text">
-                                    Card content
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                Card footer
-                            </div>
+                <div class="col-xl-2 col-lg-4 d-none d-lg-block">
+                    <div class="card">
+                        <h5 class="card-header">
+                            Filtrar por tema
+                        </h5>
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item "><a class="list-group-item list-group-item-action"
+                                        href="">Agendas y calendarios</a></li>
+                                <li class="list-group-item"><a class="list-group-item list-group-item-action"
+                                        href="">Artes</a></li>
+                                <li class="list-group-item"><a class="list-group-item list-group-item-action" href="">Biologia y ciencia</a></li>
+                                <li class="list-group-item"><a class="list-group-item list-group-item-action"
+                                        href="">Cocina y comidas</a></li>
+                                <li class="list-group-item"><a class="list-group-item list-group-item-action"
+                                        href="">Comics y manga</a></li>
+                                <li class="list-group-item"><a class="list-group-item list-group-item-action"
+                                        href="">Deportes</a></li>
+                            </ul>
+
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <h5 class="card-header">
-                                Card title
-                            </h5>
-                            <div class="card-body">
-                                <p class="card-text">
-                                    Card content
-                                </p>
+                <div class="col-xl-10 col-lg-8">
+                    <div class="container-fluid align-text">
+                        <div class="row text-center">
+                            <div class="col-md-4 border pt-3">
+                                <a href="">
+                                    <img alt="Bootstrap Image Preview" src="fotos/HP1_portada.webp"
+                                        class="rounded img-fluid" />
+                                </a>
+                                <p class="tittle-book">Harry Potter y la piedra filosofal</p>
+                                <p><span>AR$</span> 2.500</p>
                             </div>
-                            <div class="card-footer">
-                                Card footer
+                            <div class="col-md-4 border pt-3">
+                                <a href="">
+                                    <img alt="Bootstrap Image Preview" src="fotos/HP2_portada.webp"
+                                        class="rounded img-fluid" />
+                                </a>
+                                <p class="tittle-book">Harry Potter y la camara secreta</p>
+                                <p><span>AR$</span> 2.500</p>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <h5 class="card-header">
-                                Card title
-                            </h5>
-                            <div class="card-body">
-                                <p class="card-text">
-                                    Card content
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                Card footer
+                            <div class="col-md-4 border pt-3">
+                                <a href="">
+                                    <img alt="Bootstrap Image Preview" src="fotos/HP3_portada.webp"
+                                        class="rounded img-fluid" />
+                                </a>
+                                <p class="tittle-book">Harry Potter y el prisionero de Azkaban</p>
+                                <p><span>AR$</span> 2.500</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <h5 class="card-header">
-                                Card title
-                            </h5>
-                            <div class="card-body">
-                                <p class="card-text">
-                                    Card content
-                                </p>
+                        <div class="row text-center">
+                            <div class="col-md-4 border pt-3">
+                                <a href="">
+                                    <img alt="Bootstrap Image Preview" src="fotos/HP4_portada.webp"
+                                        class="rounded img-fluid" />
+                                </a>
+                                <p class="tittle-book">Harry Potter y el caliz de fuego</p>
+                                <p><span>AR$</span> 2.500</p>
                             </div>
-                            <div class="card-footer">
-                                Card footer
+                            <div class="col-md-4  border pt-3 ">
+                              <a href="">
+                                    <img width="320" height="500" alt="Bootstrap Image Preview"
+                                        src="fotos/HP5_portada.webp" class="rounded img-fluid" />
+                                </a>
+                                <p class="tittle-book">Harry Potter y la orden del fenix</p>
+                                <p><span>AR$</span> 2.500</p>
+                            </div>
+                            <div class="col-md-4 border pt-3">
+                                <a href="">
+                                    <img alt="Bootstrap Image Preview" src="fotos/HP6_portada.webp"
+                                        class="rounded img-fluid" />
+                                </a>
+                                <p class="tittle-book">Harry Potter y el misterio del principe</p>
+                                <p><span>AR$</span> 2.500</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</main>
+    </main>
 
 
 
@@ -216,28 +189,30 @@
                 <div class="col-md-4 text-center  ">
                     <h5 class="text-left">
                         Medios de pago
-                    </h5>
+                  </h5>
                     <img width="80px" height="50px" alt="Bootstrap Image Preview" src="fotos/mercadopago.png"
                         class="rounded p-2" />
-                        <img width="80px" height="50px" alt="Bootstrap Image Preview" src="fotos/visa.png"
+                    <img width="80px" height="50px" alt="Bootstrap Image Preview" src="fotos/visa.png"
                         class="rounded p-2" />
-                        <img width="80px" height="50px" alt="Bootstrap Image Preview" src="fotos/mastercard.png"
+                    <img width="80px" height="50px" alt="Bootstrap Image Preview" src="fotos/mastercard.png"
                         class="rounded p-2" />
                     <h5>
                         Metodos de entrega
-                    </h5>
-                    <img width="80px" height="50px" alt="Bootstrap Image Preview" src="fotos/acordar.png" class="rounded p-2" />
-                    <img width="80px" height="50px" alt="Bootstrap Image Preview" src="fotos/personalizado.png" class="rounded p-2" />
-                    <img width="80px" height="50px" alt="Bootstrap Image Preview" src="fotos/retiro-local.png" class="rounded p-2" />
+                   </h5>
+                    <img width="80px" height="50px" alt="Bootstrap Image Preview" src="fotos/acordar.png"
+                        class="rounded p-2" />
+                    <img width="80px" height="50px" alt="Bootstrap Image Preview" src="fotos/personalizado.png"
+                        class="rounded p-2" />
+                    <img width="80px" height="50px" alt="Bootstrap Image Preview" src="fotos/retiro-local.png"
+                        class="rounded p-2" />
                 </div>
                 <div class="col-md-4 text-center ">
                     <h5>
-                        Redes sociales
-                    </h5>
+                  </h5>
                     <img width="90px" height="90px" alt="Bootstrap Image Preview" src="fotos/facebook.png"
                         class="rounded p-2" />
-                        <img width="90px" height="90px" alt="Bootstrap Image Preview"
-                        src="fotos/instagram.png" class="rounded p-2" />
+                    <img width="90px" height="90px" alt="Bootstrap Image Preview" src="fotos/instagram.png"
+                        class="rounded p-2" />
                 </div>
                 <div class="col-md-4 text-center ">
                     <h5>
