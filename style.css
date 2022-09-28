@@ -35,6 +35,15 @@ margin: 200px auto 0 auto;
     font-size: 9px;
 }
 
+.img-hp:hover{
+    width: 90%;
+   
+    }
+
+    .container-hp:hover{
+        background-color: #feefdd ;
+    }
+
 /* .logo-navbar{
     width: 30%;
 } */
