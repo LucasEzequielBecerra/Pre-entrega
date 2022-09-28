@@ -19,6 +19,21 @@ background-color: #201e1f;
 color: beige;
 }
 
+.ty-hover:hover::after{  
+    content: '❤️'; 
+   
+
+}
+
+.card-login{
+max-width: 700px;
+margin: 200px auto 0 auto;
+}
+
+.request{
+    color: gray;
+    font-size: 9px;
+}
 
 /* .logo-navbar{
     width: 30%;
